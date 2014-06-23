@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<head>
+<title>Risk Management Program System Requirements Test</title>
+
+</head>
+<body>
+<div id="titleHeader" style="text-align: center">
+    <h2>Risk Management Program System Requirements Test</h2>
+</div>
+
+<div id="videoPart" class="videoPlayer" >
+    <div id="errormsg" style="position: absolute;top:120px;left:180px;display: none;">Error Loading Video</div>
+    <div id="vidContainer"> Loading the PLayer</div>
+
+
+</div>
+
+<div class="videoPlayer" id="html5" style="display: none;">
+    <div id="status"></div>
+    <!--<img id="overlay" class="showing" src="courses/BASIC2012/posters/basic_m7Poster.png" width="400px" height="250px">-->
+    <video id="html5vid" controls style="margin-left: 54px;"></video>
+
+    <!--<input type="button" value="Pause" name="button" id="testHtml5button" onclick="javascript:playVideo();" style="display: none;"> -->
+</div>
+
+<div id="html5Messages" style="text-align: center;margin-top: 10px;">
+
+</div>
+
+
+
+<div id="syswrapper" style="margin-top: 50px;">
+    <table width="50%" border="1" align="center">
+        <tr>
+            <td align="left" nowrap=nowrap width="10%">Operating System:</td>
+            <td id="operatingSystemValue"></td>
+            <td id="operatingSystemOk"></td>
+        </tr>
+        <tr>
+            <td align="left" nowrap=nowrap width="10%">Browser:</td>
+            <td id="browserValue"></td>
+            <td id="browserOk"></td>
+        </tr>
+        <tr>
+            <td align="left" nowrap=nowrap width="10%">Flash Plugin:</td>
+            <td id="pluginValue"></td>
+            <td id="pluginOk"></td>
+        </tr>
+        <tr>
+            <td>Screen Resolution:</td>
+            <td id="screenValue"></td>
+            <td id="screenOk"></td>
+        </tr>
+        <!--<tr>
+            <td>Screen Width</td>
+            <td id="bandwidthValue">Operating system value</td>
+            <td id="bandwidthOk">supported/not supported</td>
+        </tr> -->
+    </table>
+</div>
+
+</body>
+</html>
